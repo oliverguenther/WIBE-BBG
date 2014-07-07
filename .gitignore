@@ -1,0 +1,4 @@
+project/
+build.sh
+bbgtest
+*.o

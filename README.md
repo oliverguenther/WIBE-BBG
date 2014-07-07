@@ -13,9 +13,9 @@ http://link.springer.com/article/10.1007%2Fs00145-010-9060-3
 
 WIBE-BBG depends on the PBC library, which itself depends on GMP. Please see their respective manuals for build instructions.
 
-To build the test program, simply run:
+To build and execute the test program, simply run:
 
-	gcc -std=c99 -o bbgtest testscheme.c WIBE-BBG.c  -lgmp -lpbc
+	make && make test
 
 ## Contact
 Oliver Günther, oliver.guenther@cs.tu-darmstadt.de
